@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Productos</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <script src="./js/data.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <i class="fa-brands fa-slack"></i>
+        <h1>Gestión de Productos</h1>
+    </header>
+
+    <main>
+        <section id="search_filters">
+
+            <h2>Filtros de Búsqueda</h2>
+
+            <div class="line"></div>
+
+            <form id="formProducts">
+
+                <div class="column name">
+                    <label for="nameProduct">Nombre del producto</label>
+                    <input id="nameProduct" name="nameProduct" type="text"
+                        placeholder="Buscar por nombre o categoría de producto...">
+                </div>
+
+                <div class="column price">
+                    <label for="price">Rango de Precio</label>
+                    <div class="price-range">
+                        <input id="minPrice" name="minPrice" type="number" placeholder="1">
+                        <span>-</span>
+                        <input id="maxPrice" name="maxPrice" type="number" placeholder="50">
+                    </div>
+                </div>
+
+                <div class="line"></div>
+
+                <input type="submit" form="formProducts" value="Filtrar">
+
+            </form>
+
+        </section>
+
+
+        <section id="featured_products">
+
+            <h3>Productos Destacados</h3>
+
+        </section>
+
+
+        <section id="all_products">
+
+            <h3>Todos los Productos</h3>
+
+            <!-- <article class="product">
+                    <figure class="product-figure">
+                        <img src="./Images/globos.jpg" alt="globos">
+                        <i class="fa-regular fa-star"></i>
+                        <figcaption>
+                            <p>Globos</p>
+                            <h4>Arco de globos</h4>
+                            <p>SKU: GLB-003</p>
+                            <p>Stock: 20</p>
+                            <p class="price">10 €</p>
+                        </figcaption>
+                    </figure>
+                </article> -->
+
+        </section>
+
+    </main>
+
+    <script src="./js/products.js"></script>
+    <script src="./js/form.js"></script>
+
+</body>
+
+</html>
