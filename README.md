@@ -1,5 +1,4 @@
 Practica Javascript - Filtros Ecommerce
-Vence el 12 de noviembre de 2025 23:59
 Instrucciones
 💡 Práctica propuesta: “Catálogo de Productos Interactivo”
 
